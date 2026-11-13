@@ -1,0 +1,1 @@
+(window.__pdR = window.__pdR || {})["https://apis.roblox.com/subscriptions/v2/user/subscriptions?ProductType=Blackbird&ExpirationTimestampMsStart=1793972714773&ResultsPerPage=1"] = ["application/json", "eyJzdWJzY3JpcHRpb25zIjpbXSwiaGFzTW9yZSI6ZmFsc2UsImN1cnNvciI6bnVsbH0="];

@@ -1,0 +1,1 @@
+(window.__pdR = window.__pdR || {})["https://apis.roblox.com/guac-v2/v1/bundles/appeals-portal"] = ["application/json", "eyJFbmFibGVNaXNjQXBwZWFsc0Zvcm0iOmZhbHNlLCJFbmFibGVPcHRPdXRDb21tdW5pY2F0aW9uIjpmYWxzZX0="];

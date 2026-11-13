@@ -1,0 +1,1 @@
+(window.__pdR = window.__pdR || {})["https://apis.roblox.com/realtime-replay-api/v1/config"] = ["application/json", "eyJuYW1lc3BhY2VzIjp7IkNvbW11bmljYXRpb25DaGFubmVscyI6eyJtYXhOb3RpZnNSZXBsYXllZCI6MTZ9LCJSZWFsdGltZU1ldHJpY3MiOnsibWF4Tm90aWZzUmVwbGF5ZWQiOjF9fX0="];

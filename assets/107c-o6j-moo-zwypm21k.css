@@ -1,0 +1,14 @@
+.iv-qr-frame{
+  border-radius:var(--size-350);
+  background-color:#fff
+}
+.iv-qr-svg{
+  width:176px;
+  height:176px;
+  display:block
+}
+.iv-qr-logo-backdrop{
+  rx:var(--radius-small);
+  ry:var(--radius-small)
+}
+/*# sourceMappingURL=https://internal-assets.rbxcdn.com/_next/static/chunks/05dm5obq-8n~y.css.map*/

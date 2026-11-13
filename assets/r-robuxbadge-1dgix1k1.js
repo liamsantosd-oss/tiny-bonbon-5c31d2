@@ -1,0 +1,1 @@
+(window.__pdR = window.__pdR || {})["https://apis.roblox.com/robuxbadge/v1/robuxbadge"] = ["application/json", "eyJpc192aXJ0dWFsX2l0ZW1fYXZhaWxhYmxlIjpmYWxzZSwiYWN0aXZlX3ZpcnR1YWxfaXRlbV9zdGFydF90aW1lX3NlY29uZHNfdXRjIjotMX0="];

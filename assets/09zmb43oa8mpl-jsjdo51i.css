@@ -1,0 +1,234 @@
+.security-banner .banner-button{
+  background-color:initial
+}
+.security-banner .banner-buttons .banner-close-progress{
+  opacity:1
+}
+.account-security-prompt-dialog .xsmall{
+  font-size:9px!important
+}
+.account-security-prompt-dialog .modal-two-factors-icon{
+  background-image:url("upsellSpritesheet-svg-03g0-nzh5geex-1a6byz01.svg");
+  background-position:-97px -190px;
+  width:96px;
+  height:96px
+}
+.account-security-prompt-dialog .modal-protect-icon{
+  background-image:url("upsellSpritesheet-svg-03g0-nzh5geex-1a6byz01.svg");
+  background-position:-97px -285px;
+  width:96px;
+  height:96px
+}
+.account-security-prompt-dialog .modal-keep-bad-icon{
+  background-image:url("upsellSpritesheet-svg-03g0-nzh5geex-1a6byz01.svg");
+  background-position:-97px -385px;
+  width:96px;
+  height:96px
+}
+.account-security-prompt-dialog .modal-checkmark-icon{
+  background-image:url("checkmark-svg-0_-nj9_s42tip-12eya0d2.svg");
+  background-position:50%;
+  background-repeat:no-repeat;
+  background-size:auto 15px;
+  height:15px
+}
+.account-security-prompt-dialog .bottom-label-link{
+  color:var(--color-extended-blue-500);
+  font-weight:var(--font-weight-500)
+}
+.account-security-prompt-dialog .bottom-label-text-with-start-margin{
+  line-height:1em;
+  font-weight:var(--font-weight-500);
+  margin-inline-start:3px
+}
+.account-security-prompt-dialog .text-link{
+  color:var(--color-content-emphasis);
+  font-weight:var(--font-weight-500)
+}
+@media (max-width:543px){
+  .account-security-prompt-dialog .modal-two-factors-icon,.account-security-prompt-dialog .modal-protect-icon,.account-security-prompt-dialog .modal-keep-bad-icon{
+    zoom:.75
+  }
+}
+@media (min-width:543px){
+  .account-security-prompt-dialog .xsmall{
+    font-size:11px!important
+  }
+  .challenge-dialog.account-security-prompt-dialog.foundation-web-dialog-content[data-size]{
+    width:max-content;
+    max-width:calc(100% - 24px)
+  }
+  .account-security-prompt-dialog .account-security-prompt-form{
+    min-width:396px
+  }
+}
+.authenticator-upsell-intro-grid .grid-container{
+  justify-content:center;
+  align-content:left;
+  grid-template-columns:1fr 4fr;
+  align-items:center;
+  display:grid
+}
+.authenticator-upsell-intro-grid .grid-item{
+  text-align:left;
+  max-width:450px;
+  padding:10px
+}
+.authenticator-upsell-download-grid .grid-container{
+  grid-template-columns:minmax(min-content,90px) minmax(min-content,230px);
+  place-content:center;
+  align-items:center;
+  padding:25px;
+  display:grid
+}
+.authenticator-upsell-download-grid .grid-item{
+  padding:5px
+}
+.btr-explorer-button-container:not(.btr-temp-fixed){
+  display:none!important
+}
+.security-banner{
+  border:1px solid color-mix(in srgb, var(--color-extended-gray-900) 20%, transparent);
+  background-color:var(--color-extended-white-100);
+  color:var(--color-extended-gray-800);
+  border-radius:6px;
+  flex-wrap:nowrap;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px;
+  display:flex
+}
+.security-banner .banner-close{
+  opacity:.7;
+  margin-left:15px
+}
+.security-banner .banner-close:hover{
+  opacity:1
+}
+.security-banner .banner-start{
+  align-items:start;
+  display:flex
+}
+.security-banner .banner-start .banner-icon{
+  background-color:var(--color-extended-red-700);
+  border-radius:6px;
+  justify-content:center;
+  align-items:center;
+  width:1em;
+  height:1em;
+  margin-right:15px;
+  padding:27.5px;
+  display:flex
+}
+.security-banner .banner-start .banner-icon .banner-warning-icon{
+  width:36px;
+  min-width:36px;
+  height:36px;
+  color:var(--color-extended-white-100)
+}
+.security-banner .banner-start .banner-icon-lock{
+  background-image:url("lock-svg-0bycjs_a0q3ad-z8hbun1f.svg");
+  background-size:100% 100%;
+  border-radius:6px;
+  justify-content:center;
+  align-items:center;
+  width:1em;
+  height:1em;
+  margin-right:15px;
+  padding:27.5px;
+  font-size:36px;
+  display:flex
+}
+.security-banner .banner-start .banner-content{
+  flex-direction:column;
+  justify-content:center;
+  display:flex
+}
+.security-banner .banner-start .banner-content .banner-header{
+  color:var(--color-extended-gray-900);
+  padding-top:0
+}
+.security-banner .banner-start .banner-content .banner-description .text-link{
+  color:var(--color-extended-blue-500);
+  font-weight:var(--font-weight-500)
+}
+.security-banner .banner-start .banner-close{
+  display:none
+}
+.security-banner .banner-buttons{
+  flex-shrink:0;
+  align-items:center;
+  margin-left:30px;
+  display:flex
+}
+.security-banner .banner-buttons .banner-button:not(.banner-button-last){
+  margin-right:6px
+}
+.security-banner .banner-buttons .banner-button-last+.banner-close{
+  margin-left:9px
+}
+@media screen and (max-width:991px){
+  .security-banner{
+    max-height:unset;
+    display:block
+  }
+  .security-banner .banner-start .banner-content{
+    flex:1
+  }
+  .security-banner .banner-start .banner-close{
+    display:inline-flex
+  }
+  .security-banner .banner-buttons{
+    margin-left:0;
+    display:flex
+  }
+  .security-banner .banner-buttons .banner-button{
+    flex:1;
+    margin-top:9px;
+    overflow:hidden
+  }
+  .security-banner .banner-buttons .banner-button button{
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    width:100%;
+    overflow:hidden;
+    font-size:12.8px!important
+  }
+  .security-banner .banner-buttons .banner-button:not(.banner-button-last){
+    margin-right:9px
+  }
+  .security-banner .banner-buttons .banner-close{
+    display:none
+  }
+}
+@media screen and (max-width:767px){
+  .security-banner .banner-buttons .banner-button button{
+    font-size:9.6px!important
+  }
+}
+.dark-theme .security-banner,.color-mode-dark .security-banner{
+  border-color:var(--color-extended-white-20);
+  background-color:var(--color-extended-gray-900);
+  color:var(--color-extended-gray-500)
+}
+.dark-theme .security-banner .banner-start .banner-header,.color-mode-dark .security-banner .banner-start .banner-header{
+  color:var(--color-extended-white-100)
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system .security-banner{
+    border-color:var(--color-extended-white-20);
+    background-color:var(--color-extended-gray-900);
+    color:var(--color-extended-gray-500)
+  }
+  .color-mode-system .security-banner .banner-start .banner-header{
+    color:var(--color-extended-white-100)
+  }
+}
+.security-banner{
+  margin-left:var(--left-nav-reserved-width);
+  width:calc(100% - var(--left-nav-reserved-width))
+}
+.security-banner-wrapper{
+  padding:15px
+}
+/*# sourceMappingURL=https://internal-assets.rbxcdn.com/_next/static/chunks/0rkrgvg_f6kwm.css.map*/

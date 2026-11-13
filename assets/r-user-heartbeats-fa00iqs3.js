@@ -1,0 +1,1 @@
+(window.__pdR = window.__pdR || {})["https://apis.roblox.com/guac-v2/v1/bundles/user-heartbeats"] = ["application/json", "eyJpbnRlcnZhbFRpbWVNcyI6MzAwMDAsImlzRW5hYmxlZCI6dHJ1ZSwicm9sbG91dFBlcmNlbnRhZ2UiOjEwMH0="];

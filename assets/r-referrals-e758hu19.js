@@ -1,0 +1,1 @@
+(window.__pdR = window.__pdR || {})["https://apis.roblox.com/subscriptions/v2/referrals?Status=1&PageSize=5"] = ["application/json", "eyJyZWZlcnJhbHMiOltdLCJuZXh0Q3Vyc29yIjpudWxsLCJoYXNNb3JlIjpmYWxzZX0="];

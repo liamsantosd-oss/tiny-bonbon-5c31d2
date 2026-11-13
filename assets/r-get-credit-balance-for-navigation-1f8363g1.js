@@ -1,0 +1,1 @@
+(window.__pdR = window.__pdR || {})["https://apis.roblox.com/credit-balance/v1/get-credit-balance-for-navigation"] = ["application/json", "eyJjcmVkaXREaXNwbGF5Q29uZmlnIjoic2hvd0NyZWRpdEFuZFJvYnV4IiwiY3JlZGl0QmFsYW5jZSI6MC4wLCJjdXJyZW5jeUNvZGUiOiJQSFAifQ=="];

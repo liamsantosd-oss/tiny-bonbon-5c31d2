@@ -1,0 +1,1 @@
+(window.__pdR = window.__pdR || {})["https://usermoderation.roblox.com/v1/reminder"] = ["application/json", "eyJzaG91bGRTdXJmYWNlUmVtaW5kZXIiOmZhbHNlLCJpbnRlcnZlbnRpb25JZCI6IiIsImNvbnRlbnRWYXJpYW50IjoiIiwicG9saWN5VmlvbGF0aW9uIjoiIiwicmVtaW5kZXJOdW1iZXIiOjAsImV4cGVyaW1lbnRWYXJpYW50IjoiIiwibnVkZ2VUeXBlIjoiIn0="];

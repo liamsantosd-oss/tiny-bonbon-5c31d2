@@ -1,0 +1,1 @@
+(window.__pdR = window.__pdR || {})["https://apis.roblox.com/platform-chat-api/v1/get-conversation-metadata"] = ["application/json", "eyJnbG9iYWxfdW5yZWFkX21lc3NhZ2VfY291bnQiOjAsImdsb2JhbF91bnJlYWRfY291bnQiOjB9"];

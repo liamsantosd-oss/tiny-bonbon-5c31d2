@@ -1,0 +1,1 @@
+(window.__pdR = window.__pdR || {})["https://apis.roblox.com/credit-balance/v1/get-conversion-metadata"] = ["application/json", "eyJjcmVkaXRCYWxhbmNlIjowLjAsImN1cnJlbmN5Q29kZSI6IlBIUCIsInJvYnV4Q29udmVyc2lvbkFtb3VudCI6MCwiaXNDb252ZXJ0QWxsRmxvd0VuYWJsZWQiOnRydWV9"];

@@ -1,0 +1,69 @@
+.inset-\[0\]{
+  top:0;
+  bottom:0;
+  left:0;
+  right:0
+}
+.left-\[50\%\]{
+  left:50%
+}
+.top-\[50\%\]{
+  top:50%
+}
+.opacity-\[0\.5\]{
+  opacity:.5
+}
+#download-the-app-container .download-app-background{
+  background-position:50%;
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment:fixed
+}
+@media (orientation:portrait){
+  #download-the-app-container .download-app-background{
+    background-image:url("2b36f80da6dbdf80-1pf8gg2q.png")
+  }
+}
+@media (orientation:landscape){
+  #download-the-app-container .download-app-background{
+    background-image:url("647e89ace4db569e-qbujwn3t.png")
+  }
+}
+#download-the-app-container .icon-logo{
+  background-position:50%;
+  background-size:contain;
+  width:100%;
+  height:55px
+}
+.focus-visible\:outline-focus:focus-visible{
+  outline:var(--stroke-thicker)solid var(--color-selection-start);
+  outline-offset:var(--stroke-thicker)
+}
+.disabled\:outline-none:disabled{
+  outline:var(--stroke-none)solid var(--color-none)
+}
+.group\/interactable:hover .group-hover\/interactable\:bg-\[var\(--color-state-hover\)\]{
+  background-color:var(--color-state-hover)
+}
+.group\/interactable:active .group-active\/interactable\:bg-\[var\(--color-state-press\)\]{
+  background-color:var(--color-state-press)
+}
+.group\/interactable:disabled .group-disabled\/interactable\:bg-none{
+  background-color:var(--color-none)
+}
+@media (orientation:portrait){
+  .portrait\:padding-top-small{
+    padding-top:var(--padding-small)
+  }
+}
+@media (orientation:landscape){
+  .landscape\:max-width-\[320px\]{
+    max-width:320px
+  }
+  .landscape\:padding-top-large{
+    padding-top:var(--padding-large)
+  }
+  .landscape\:hidden{
+    display:none
+  }
+}

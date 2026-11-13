@@ -1,0 +1,59 @@
+:where(.challenge-text-base){
+  font-size:16px;
+  font-weight:var(--font-weight-400);
+  line-height:normal
+}
+:where(.challenge-text-base) p{
+  font-size:16px;
+  font-weight:var(--font-weight-400);
+  margin:0;
+  line-height:1.5em
+}
+:where(.challenge-text-base) :where(h2,h4){
+  margin:0;
+  padding:5px 0;
+  line-height:1.4em
+}
+:where(.challenge-text-base) h4{
+  font-size:20px;
+  font-weight:var(--font-weight-700)
+}
+@media (max-width:767px){
+  :where(.challenge-text-base),:where(.challenge-dialog) p{
+    font-size:12px
+  }
+  .challenge-text-base :is(p,div).text-caption-small{
+    font-size:8px;
+    line-height:12px
+  }
+  .challenge-text-base span.text-title-large{
+    font-size:14px;
+    line-height:1.5em
+  }
+  .challenge-text-base p.text-title-large{
+    font-weight:var(--font-weight-400);
+    font-size:12px;
+    line-height:18px
+  }
+  .challenge-text-base .challenge-checkbox .foundation-web-checkbox{
+    align-items:center;
+    gap:6px
+  }
+  .challenge-text-base .challenge-checkbox .foundation-web-checkbox>div{
+    padding-block-start:0;
+    padding-block-end:0
+  }
+  .challenge-text-base .challenge-checkbox .size-600{
+    width:16px;
+    height:16px
+  }
+  .challenge-text-base .challenge-checkbox .text-body-large{
+    padding-top:0;
+    font-size:12px;
+    line-height:18px
+  }
+  :where(.challenge-text-base) h4{
+    font-size:16px
+  }
+}
+/*# sourceMappingURL=https://internal-assets.rbxcdn.com/_next/static/chunks/060isfz_md.7..css.map*/

@@ -1,0 +1,1570 @@
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal){
+  font-family:var(--config-text-font), "Builder Sans", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size:16px;
+  font-weight:var(--font-weight-400);
+  color:var(--color-content-emphasis);
+  line-height:normal
+}
+@media (max-width:767px){
+  :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal){
+    font-size:12px
+  }
+}
+@media (min-width:543px){
+  .access-management-upsell-modal .modal-dialog[data-size],.access-management-upsell-inner-modal .modal-dialog[data-size]{
+    min-width:calc(var(--size-100) * 75)
+  }
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) a{
+  background:0 0
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) a:active,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) a:hover{
+  outline:0
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) button,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) input{
+  color:inherit;
+  font:inherit;
+  margin:0
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) button{
+  color:inherit;
+  font:inherit;
+  text-transform:none;
+  -webkit-appearance:button;
+  appearance:button;
+  cursor:pointer;
+  margin:0;
+  overflow:visible
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) button[disabled]{
+  cursor:default
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) input{
+  line-height:normal
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog{
+  width:auto;
+  margin:10px;
+  position:relative
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-content{
+  background-color:#fff;
+  background-clip:padding-box;
+  border:1px solid #0003;
+  border-radius:6px;
+  outline:0;
+  position:relative
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-header{
+  border-bottom:1px solid #e5e5e5;
+  min-height:16.4286px;
+  padding:15px
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-header .close{
+  margin-top:-2px
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-title{
+  margin:0;
+  line-height:1.42857
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-body{
+  padding:15px;
+  position:relative
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-footer{
+  text-align:right;
+  border-top:1px solid #e5e5e5;
+  padding:15px
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-footer:before,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-footer:after{
+  content:" ";
+  display:table
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-footer:after{
+  clear:both
+}
+@media (min-width:768px){
+  :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog{
+    width:600px;
+    margin:30px auto
+  }
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) h4{
+  font-size:20px;
+  line-height:1.4em;
+  font-weight:var(--font-weight-700);
+  margin:0;
+  padding:5px 0
+}
+@media (max-width:767px){
+  :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) h4{
+    font-size:16px
+  }
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) p{
+  font-size:16px;
+  font-weight:var(--font-weight-400)
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-description{
+  overflow-wrap:break-word;
+  -webkit-hyphens:none;
+  hyphens:none;
+  font-size:16px;
+  font-weight:var(--font-weight-300);
+  line-height:1.5em
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:link,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:hover,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:visited,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:active{
+  color:var(--color-extended-blue-500)
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:hover,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:focus{
+  text-decoration:underline
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-error{
+  font-size:10px;
+  font-weight:var(--font-weight-400);
+  color:var(--color-extended-red-700)
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-footer{
+  font-size:10px;
+  font-weight:var(--font-weight-400);
+  color:var(--color-extended-gray-500)
+}
+@media (max-width:767px){
+  :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-footer{
+    font-size:10px
+  }
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) *{
+  box-sizing:inherit;
+  box-sizing:border-box;
+  text-rendering:auto;
+  -webkit-font-smoothing:antialiased
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) p{
+  margin:0;
+  line-height:1.5em
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) a{
+  color:inherit;
+  cursor:pointer;
+  text-decoration:none
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) button[class^=btn]{
+  font-weight:var(--font-weight-500)
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md{
+  -webkit-user-select:none;
+  user-select:none;
+  background-color:var(--color-extended-green-800);
+  border-style:solid;
+  border-width:1px;
+  border-color:var(--color-extended-green-800);
+  color:var(--color-extended-white-100);
+  cursor:pointer;
+  font-weight:var(--font-weight-500);
+  text-align:center;
+  white-space:nowrap;
+  vertical-align:middle;
+  border-image:;
+  border-radius:3px;
+  height:auto;
+  padding:9px;
+  font-size:16px;
+  line-height:100%;
+  display:inline-block
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:link{
+  color:var(--color-extended-white-100)
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:hover,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:focus{
+  background-color:var(--color-extended-green-500);
+  border-color:var(--color-extended-green-500);
+  color:var(--color-extended-white-100);
+  cursor:pointer
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:active{
+  background-color:var(--color-extended-green-500);
+  color:var(--color-extended-white-100)
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:active:focus{
+  outline:0
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:visited{
+  color:var(--color-extended-white-100)
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:visited:focus{
+  outline:0
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md[disabled],:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md[disabled]:hover,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md[disabled]:focus,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md[disabled]:active{
+  opacity:.5;
+  background-color:var(--color-extended-green-200);
+  border-color:var(--color-extended-green-200);
+  color:var(--color-extended-white-100);
+  cursor:not-allowed;
+  pointer-events:none
+}
+@media (max-width:767px){
+  :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md{
+    border-radius:3px;
+    padding:7px;
+    font-size:16px;
+    line-height:100%
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md{
+  background-color:var(--color-extended-gray-900);
+  border-color:var(--color-extended-gray-900);
+  color:var(--color-extended-white-100);
+  border-radius:8px
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md{
+    background-color:var(--color-extended-gray-900);
+    border-color:var(--color-extended-gray-900);
+    color:var(--color-extended-white-100);
+    border-radius:8px
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:link{
+  color:var(--color-extended-white-100)
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:link{
+    color:var(--color-extended-white-100)
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:hover,.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:focus{
+  background-color:var(--color-extended-gray-900);
+  border-color:var(--color-extended-gray-900);
+  color:var(--color-extended-white-100)
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:hover,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:focus{
+    background-color:var(--color-extended-gray-900);
+    border-color:var(--color-extended-gray-900);
+    color:var(--color-extended-white-100)
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:active{
+  background-color:var(--color-extended-gray-900);
+  color:var(--color-extended-white-100)
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:active{
+    background-color:var(--color-extended-gray-900);
+    color:var(--color-extended-white-100)
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:visited{
+  color:var(--color-extended-white-100)
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:visited{
+    color:var(--color-extended-white-100)
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md[disabled],.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md[disabled]:hover,.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md[disabled]:focus,.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md[disabled]:active{
+  background-color:var(--color-extended-gray-900);
+  border-color:var(--color-extended-gray-900);
+  color:var(--color-extended-white-100);
+  opacity:.5
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md[disabled],.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md[disabled]:hover,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md[disabled]:focus,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md[disabled]:active{
+    background-color:var(--color-extended-gray-900);
+    border-color:var(--color-extended-gray-900);
+    color:var(--color-extended-white-100);
+    opacity:.5
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md{
+  background-color:var(--color-extended-white-100);
+  border-color:var(--color-extended-white-100);
+  color:var(--color-extended-gray-900);
+  border-radius:8px
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md{
+    background-color:var(--color-extended-white-100);
+    border-color:var(--color-extended-white-100);
+    color:var(--color-extended-gray-900);
+    border-radius:8px
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:link{
+  color:var(--color-extended-gray-900)
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:link{
+    color:var(--color-extended-gray-900)
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:hover,.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:focus{
+  background-color:var(--color-extended-white-100);
+  border-color:var(--color-extended-white-100);
+  color:var(--color-extended-gray-900)
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:hover,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:focus{
+    background-color:var(--color-extended-white-100);
+    border-color:var(--color-extended-white-100);
+    color:var(--color-extended-gray-900)
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:active{
+  background-color:var(--color-extended-white-100);
+  color:var(--color-extended-gray-900)
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:active{
+    background-color:var(--color-extended-white-100);
+    color:var(--color-extended-gray-900)
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:visited{
+  color:var(--color-extended-gray-900)
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md:visited{
+    color:var(--color-extended-gray-900)
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md[disabled],.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md[disabled]:hover,.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md[disabled]:focus,.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md[disabled]:active{
+  background-color:var(--color-extended-white-100);
+  border-color:var(--color-extended-white-100);
+  color:var(--color-extended-gray-900);
+  opacity:.5
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md[disabled],.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md[disabled]:hover,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md[disabled]:focus,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-primary-md[disabled]:active{
+    background-color:var(--color-extended-white-100);
+    border-color:var(--color-extended-white-100);
+    color:var(--color-extended-gray-900);
+    opacity:.5
+  }
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md{
+  -webkit-user-select:none;
+  user-select:none;
+  background-color:var(--color-extended-green-800);
+  border-style:solid;
+  border-width:1px;
+  border-color:var(--color-extended-green-800);
+  color:var(--color-extended-white-100);
+  cursor:pointer;
+  font-weight:var(--font-weight-500);
+  text-align:center;
+  white-space:nowrap;
+  vertical-align:middle;
+  border-image:;
+  border-radius:3px;
+  height:auto;
+  padding:9px;
+  font-size:16px;
+  line-height:100%;
+  display:inline-block
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:link{
+  color:var(--color-extended-white-100)
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:hover,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:focus{
+  background-color:var(--color-extended-green-500);
+  border-color:var(--color-extended-green-500);
+  color:var(--color-extended-white-100);
+  cursor:pointer
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:active{
+  background-color:var(--color-extended-green-500);
+  color:var(--color-extended-white-100)
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:active:focus{
+  outline:0
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:visited{
+  color:var(--color-extended-white-100)
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:visited:focus{
+  outline:0
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md[disabled],:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md[disabled]:hover,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md[disabled]:focus,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md[disabled]:active{
+  opacity:.5;
+  background-color:var(--color-extended-green-200);
+  border-color:var(--color-extended-green-200);
+  color:var(--color-extended-white-100);
+  cursor:not-allowed;
+  pointer-events:none
+}
+@media (max-width:767px){
+  :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md{
+    border-radius:3px;
+    padding:7px;
+    font-size:16px;
+    line-height:100%
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md{
+  background-color:var(--color-content-emphasis);
+  border-color:var(--color-content-emphasis);
+  color:var(--color-surface-0);
+  border-radius:8px
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md{
+    background-color:var(--color-content-emphasis);
+    border-color:var(--color-content-emphasis);
+    color:var(--color-surface-0);
+    border-radius:8px
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:link{
+  color:var(--color-surface-0)
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:link{
+    color:var(--color-surface-0)
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:hover,.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:focus{
+  background-color:var(--color-content-emphasis);
+  border-color:var(--color-content-emphasis);
+  color:var(--color-surface-0)
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:hover,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:focus{
+    background-color:var(--color-content-emphasis);
+    border-color:var(--color-content-emphasis);
+    color:var(--color-surface-0)
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:active{
+  background-color:var(--color-content-emphasis);
+  color:var(--color-surface-0)
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:active{
+    background-color:var(--color-content-emphasis);
+    color:var(--color-surface-0)
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:visited{
+  color:var(--color-surface-0)
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:visited{
+    color:var(--color-surface-0)
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md[disabled],.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md[disabled]:hover,.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md[disabled]:focus,.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md[disabled]:active{
+  background-color:var(--color-content-emphasis);
+  border-color:var(--color-content-emphasis);
+  color:var(--color-surface-0);
+  opacity:.5
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md[disabled],.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md[disabled]:hover,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md[disabled]:focus,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md[disabled]:active{
+    background-color:var(--color-content-emphasis);
+    border-color:var(--color-content-emphasis);
+    color:var(--color-surface-0);
+    opacity:.5
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md{
+  background-color:var(--color-content-emphasis);
+  border-color:var(--color-content-emphasis);
+  color:var(--color-surface-0);
+  border-radius:8px
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md{
+    background-color:var(--color-content-emphasis);
+    border-color:var(--color-content-emphasis);
+    color:var(--color-surface-0);
+    border-radius:8px
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:link{
+  color:var(--color-surface-0)
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:link{
+    color:var(--color-surface-0)
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:hover,.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:focus{
+  background-color:var(--color-content-emphasis);
+  border-color:var(--color-content-emphasis);
+  color:var(--color-surface-0)
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:hover,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:focus{
+    background-color:var(--color-content-emphasis);
+    border-color:var(--color-content-emphasis);
+    color:var(--color-surface-0)
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:active{
+  background-color:var(--color-content-emphasis);
+  color:var(--color-surface-0)
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:active{
+    background-color:var(--color-content-emphasis);
+    color:var(--color-surface-0)
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:visited{
+  color:var(--color-surface-0)
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md:visited{
+    color:var(--color-surface-0)
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md[disabled],.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md[disabled]:hover,.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md[disabled]:focus,.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md[disabled]:active{
+  background-color:var(--color-content-emphasis);
+  border-color:var(--color-content-emphasis);
+  color:var(--color-surface-0);
+  opacity:.5
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md[disabled],.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md[disabled]:hover,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md[disabled]:focus,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-cta-md[disabled]:active{
+    background-color:var(--color-content-emphasis);
+    border-color:var(--color-content-emphasis);
+    color:var(--color-surface-0);
+    opacity:.5
+  }
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md{
+  -webkit-user-select:none;
+  user-select:none;
+  background-color:var(--color-extended-blue-500);
+  border-style:solid;
+  border-width:1px;
+  border-color:var(--color-extended-blue-500);
+  color:var(--color-extended-white-100);
+  cursor:pointer;
+  font-weight:var(--font-weight-500);
+  text-align:center;
+  white-space:nowrap;
+  vertical-align:middle;
+  border-image:;
+  border-radius:3px;
+  height:auto;
+  padding:9px;
+  font-size:16px;
+  line-height:100%;
+  display:inline-block
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:link{
+  color:var(--color-extended-white-100)
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:hover,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:focus{
+  background-color:var(--color-extended-blue-400);
+  border-color:var(--color-extended-blue-400);
+  color:var(--color-extended-white-100);
+  cursor:pointer
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:active{
+  background-color:var(--color-extended-blue-400);
+  color:var(--color-extended-white-100)
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:active:focus{
+  outline:0
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:visited{
+  color:var(--color-extended-white-100)
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:visited:focus{
+  outline:0
+}
+@media (max-width:767px){
+  :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md{
+    border-radius:3px;
+    padding:7px;
+    font-size:16px;
+    line-height:100%
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md{
+  border-color:var(--color-content-default);
+  color:var(--color-content-muted);
+  background-color:#0000;
+  border-radius:8px
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md{
+    border-color:var(--color-content-default);
+    color:var(--color-content-muted);
+    background-color:#0000;
+    border-radius:8px
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:link{
+  color:var(--color-content-muted)
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:link{
+    color:var(--color-content-muted)
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:hover,.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:focus{
+  border-color:var(--color-content-emphasis);
+  color:var(--color-content-emphasis);
+  background-color:#0000
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:hover,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:focus{
+    border-color:var(--color-content-emphasis);
+    color:var(--color-content-emphasis);
+    background-color:#0000
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:active{
+  color:var(--color-content-emphasis);
+  background-color:#0000
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:active{
+    color:var(--color-content-emphasis);
+    background-color:#0000
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:visited{
+  color:var(--color-content-muted)
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:visited{
+    color:var(--color-content-muted)
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md{
+  border-color:var(--color-content-default);
+  color:var(--color-content-muted);
+  background-color:#0000;
+  border-radius:8px
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md{
+    border-color:var(--color-content-default);
+    color:var(--color-content-muted);
+    background-color:#0000;
+    border-radius:8px
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:link{
+  color:var(--color-content-muted)
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:link{
+    color:var(--color-content-muted)
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:hover,.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:focus{
+  border-color:var(--color-content-emphasis);
+  color:var(--color-content-emphasis);
+  background-color:#0000
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:hover,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:focus{
+    border-color:var(--color-content-emphasis);
+    color:var(--color-content-emphasis);
+    background-color:#0000
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:active{
+  color:var(--color-content-emphasis);
+  background-color:#0000
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:active{
+    color:var(--color-content-emphasis);
+    background-color:#0000
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:visited{
+  color:var(--color-content-muted)
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-secondary-md:visited{
+    color:var(--color-content-muted)
+  }
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-min-width{
+  min-width:90px
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .btn-full-width{
+  width:100%
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) input::-moz-placeholder{
+  color:var(--color-extended-gray-500);
+  opacity:1;
+  font-weight:400
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) input::placeholder{
+  color:var(--color-extended-gray-500);
+  opacity:1;
+  font-weight:400
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .form-control{
+  border-color:var(--color-extended-gray-500);
+  background-color:#0000
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .form-control{
+    border-color:var(--color-extended-gray-500);
+    background-color:#0000
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .form-control:focus{
+  background-color:#0000
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .form-control:focus{
+    background-color:#0000
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .form-control{
+  border-color:var(--color-extended-gray-700);
+  background-color:#0000
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .form-control{
+    border-color:var(--color-extended-gray-700);
+    background-color:#0000
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .form-control:focus{
+  background-color:#0000
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .form-control:focus{
+    background-color:#0000
+  }
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .form-control{
+  background-color:var(--color-extended-white-100);
+  border:1px solid var(--color-extended-gray-500);
+  background-image:none;
+  border-radius:0;
+  width:100%;
+  display:block
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .form-control:focus{
+  border-color:#66afe9;
+  outline:0
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .form-group{
+  margin-bottom:10px
+}
+@media (max-width:543px){
+  :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .form-group{
+    margin-bottom:6px
+  }
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .form-horizontal:before,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .form-horizontal:after{
+  content:" ";
+  display:table
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .form-horizontal:after{
+  clear:both
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .form-horizontal .form-group{
+  float:left;
+  width:calc(100% - 102px)
+}
+@media (max-width:767px){
+  :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .form-horizontal .form-group{
+    width:calc(100% - 102px)
+  }
+}
+@media (max-width:543px){
+  :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .form-horizontal .form-group{
+    float:none;
+    width:100%
+  }
+}
+@media (max-width:767px){
+  :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .form-horizontal .input-field{
+    height:32px;
+    line-height:1.4em
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field{
+  background-color:var(--color-shift-200);
+  border-color:var(--color-stroke-default);
+  color:var(--color-content-default);
+  border-radius:8px
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field{
+    background-color:var(--color-shift-200);
+    border-color:var(--color-stroke-default);
+    color:var(--color-content-default);
+    border-radius:8px
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field::-webkit-input-placeholder{
+  color:var(--color-content-default);
+  opacity:1;
+  font-weight:400
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field::-webkit-input-placeholder{
+    color:var(--color-content-default);
+    opacity:1;
+    font-weight:400
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field::-moz-placeholder{
+  color:var(--color-content-default);
+  opacity:1;
+  font-weight:400
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field::placeholder{
+  color:var(--color-content-default);
+  opacity:1;
+  font-weight:400
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field::-moz-placeholder{
+    color:var(--color-content-default);
+    opacity:1;
+    font-weight:400
+  }
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field::placeholder{
+    color:var(--color-content-default);
+    opacity:1;
+    font-weight:400
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field:focus{
+  background-color:var(--color-shift-200);
+  border-color:var(--color-extended-black-30)
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field:focus{
+    background-color:var(--color-shift-200);
+    border-color:var(--color-extended-black-30)
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field{
+  background-color:var(--color-shift-200);
+  border-color:var(--color-stroke-default);
+  color:var(--color-content-default);
+  border-radius:8px
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field{
+    background-color:var(--color-shift-200);
+    border-color:var(--color-stroke-default);
+    color:var(--color-content-default);
+    border-radius:8px
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field::-webkit-input-placeholder{
+  color:var(--color-content-default);
+  opacity:1;
+  font-weight:400
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field::-webkit-input-placeholder{
+    color:var(--color-content-default);
+    opacity:1;
+    font-weight:400
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field::-moz-placeholder{
+  color:var(--color-content-default);
+  opacity:1;
+  font-weight:400
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field::placeholder{
+  color:var(--color-content-default);
+  opacity:1;
+  font-weight:400
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field::-moz-placeholder{
+    color:var(--color-content-default);
+    opacity:1;
+    font-weight:400
+  }
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field::placeholder{
+    color:var(--color-content-default);
+    opacity:1;
+    font-weight:400
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field:focus{
+  background-color:var(--color-shift-200);
+  border-color:var(--color-extended-white-30)
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field:focus{
+    background-color:var(--color-shift-200);
+    border-color:var(--color-extended-white-30)
+  }
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field{
+  font-weight:var(--font-weight-400);
+  -webkit-appearance:none;
+  appearance:none;
+  height:38px;
+  padding:5px 12px;
+  font-size:16px;
+  line-height:100%
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field:focus,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field:required{
+  box-shadow:none
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .icon-close{
+  vertical-align:middle;
+  background-image:url("424995aeeb54e41f-s2h3g61l.svg");
+  background-repeat:no-repeat;
+  background-size:200%;
+  width:28px;
+  height:28px;
+  display:inline-block
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .icon-close{
+  background-image:url("3ebc87949bc669c2-jgvg9s49.svg")
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .icon-close{
+    background-image:url("3ebc87949bc669c2-jgvg9s49.svg")
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .icon-close{
+  background-image:url("f6278bdb80b2f24c-1upjqn31.svg")
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .icon-close{
+    background-image:url("f6278bdb80b2f24c-1upjqn31.svg")
+  }
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .icon-close{
+  background-position:0 -588px
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .spinner{
+  background-color:#0000;
+  background-image:url("5b162443d27ff099-mokel7wu.gif");
+  background-position:50%;
+  background-repeat:no-repeat;
+  width:100%;
+  margin:6px auto;
+  display:inline-block
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .spinner-default{
+  background-size:auto 24px;
+  height:24px
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content{
+  background-color:#fff
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content{
+  background-color:var(--color-surface-300);
+  color:var(--color-content-emphasis)
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content{
+    background-color:var(--color-surface-300);
+    color:var(--color-content-emphasis)
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content{
+  background-color:var(--color-surface-300);
+  color:var(--color-content-emphasis)
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content{
+    background-color:var(--color-surface-300);
+    color:var(--color-content-emphasis)
+  }
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog{
+  box-sizing:border-box;
+  text-align:left;
+  vertical-align:middle;
+  width:400px;
+  max-width:100%;
+  margin:0;
+  display:inline-block
+}
+@media (max-width:767px){
+  :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog{
+    width:100%;
+    min-width:296px
+  }
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content{
+  border-radius:0
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content .modal-header{
+  text-align:left;
+  border-bottom:1px solid var(--color-extended-gray-300);
+  padding:12px
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content .modal-header .icon-close{
+  vertical-align:top;
+  background-position:0 -588px;
+  background-size:56px;
+  width:28px;
+  height:28px
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content .modal-header .close{
+  opacity:1;
+  margin:0
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content .modal-body{
+  text-align:left;
+  padding:12px
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content .modal-body p{
+  white-space:pre-line;
+  line-height:1.5em
+}
+@media (max-width:767px){
+  :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content .modal-body p{
+    font-size:12px;
+    font-weight:var(--font-weight-400)
+  }
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content .modal-footer{
+  text-align:center;
+  border-top:0;
+  margin:0 12px 12px;
+  padding:0
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content .modal-footer:before,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content .modal-footer:after{
+  content:" ";
+  display:table
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content .modal-footer:after{
+  clear:both
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .close{
+  opacity:.2;
+  float:right
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .close:hover,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .close:focus{
+  opacity:.5;
+  cursor:pointer;
+  text-decoration:none
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) button.close{
+  cursor:pointer;
+  -webkit-appearance:none;
+  appearance:none;
+  background:0 0;
+  border:0;
+  padding:0
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) p{
+  color:var(--color-content-default)
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) p{
+    color:var(--color-content-default)
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) p{
+  color:var(--color-content-default)
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) p{
+    color:var(--color-content-default)
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-description{
+  color:var(--color-content-default)
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-description{
+    color:var(--color-content-default)
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-description{
+  color:var(--color-content-default)
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-description{
+    color:var(--color-content-default)
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) p,.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-footer{
+  color:var(--color-content-default)
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) p,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-footer{
+    color:var(--color-content-default)
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) p,.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-footer{
+  color:var(--color-content-default)
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) p,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-footer{
+    color:var(--color-content-default)
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link,.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:link,.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:hover,.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:visited,.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:active{
+  color:var(--color-content-emphasis)
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:link,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:hover,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:visited,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:active{
+    color:var(--color-content-emphasis)
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link,.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:link,.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:hover,.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:visited,.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:active{
+  color:var(--color-content-emphasis)
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:link,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:hover,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:visited,.color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link:active{
+    color:var(--color-content-emphasis)
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-error{
+  color:var(--color-system-alert)
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-error{
+    color:var(--color-system-alert)
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-error{
+  color:var(--color-system-alert)
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-error{
+    color:var(--color-system-alert)
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .spinner{
+  background-image:url("059b09408c6b199c-c46kaj1o.gif")
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .spinner{
+    background-image:url("059b09408c6b199c-c46kaj1o.gif")
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .spinner{
+  background-image:url("5c1ecc5accbc4762-ph6e591c.gif")
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .spinner{
+    background-image:url("5c1ecc5accbc4762-ph6e591c.gif")
+  }
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) input{
+  background-color:var(--color-none);
+  border-color:var(--color-stroke-contrast-alpha);
+  color:var(--context-emphasis)
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) input::-moz-placeholder{
+  color:var(--color-content-muted);
+  font-weight:400
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) input::placeholder{
+  color:var(--color-content-muted);
+  font-weight:400
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content .modal-header{
+  border-color:var(--color-extended-gray-500)
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content .modal-header{
+    border-color:var(--color-extended-gray-500)
+  }
+}
+.color-mode-light :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content .modal-body{
+  color:var(--color-content-default)
+}
+@media (prefers-color-scheme:light){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content .modal-body{
+    color:var(--color-content-default)
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content .modal-header{
+  border-color:var(--color-extended-gray-700)
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content .modal-header{
+    border-color:var(--color-extended-gray-700)
+  }
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content .modal-body{
+  color:var(--color-content-default)
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-dialog .modal-content .modal-body{
+    color:var(--color-content-default)
+  }
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) input,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) button,:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) button{
+  font-family:var(--config-text-font),"Builder Sans","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  text-rendering:auto;
+  -webkit-font-smoothing:antialiased
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-link{
+  font-weight:var(--font-weight-500)
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-description{
+  font-family:var(--config-text-font),"Builder Sans","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-size:16px;
+  font-weight:var(--font-weight-400)
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-error{
+  font-family:var(--config-text-font),"Builder Sans","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-size:12px;
+  font-weight:var(--font-weight-500)
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-footer{
+  font-family:var(--config-text-font),"Builder Sans","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif;
+  font-size:10px;
+  font-weight:var(--font-weight-500)
+}
+@media (max-width:767px){
+  :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-footer{
+    font-size:8px
+  }
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field{
+  line-height:1.4em
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field:focus{
+    border:1px solid
+  }
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .email-upsell-image{
+  background-image:url("1bcca464c2031dbd7afc2f89aef781da-shield-z105u81w.png");
+  background-position:50%;
+  background-repeat:no-repeat;
+  background-size:auto 142px;
+  height:142px;
+  margin:24px 0
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .email-upsell-modal-input{
+  margin:12px 0
+}
+.color-mode-dark :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field:focus{
+  border:1px solid
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .input-field:focus{
+    border:1px solid
+  }
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .email-upsell-title-container{
+  height:28px;
+  position:relative
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) #contained-modal-title-vcenter{
+  text-align:center;
+  width:100%;
+  position:absolute;
+  top:-4px
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .email-upsell-title-button{
+  z-index:1;
+  background:0 0;
+  border:none;
+  border-image:;
+  outline:none;
+  position:absolute
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .email-upsell-btn{
+  width:100%;
+  height:48px;
+  margin-bottom:12px
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .email-upsell-text-body{
+  text-align:center;
+  margin-bottom:70px
+}
+@media (max-width:543px){
+  :where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .email-upsell-text-body{
+    margin-bottom:24px
+  }
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .text-error{
+  color:#e75750
+}
+:where(.access-management-upsell-modal,.access-management-upsell-inner-modal,.mail-upsell-android-modal) .modal-header .modal-title{
+  font-size:20px;
+  font-weight:400;
+  line-height:24px
+}
+@media (max-width:543px){
+  .access-management-upsell-modal{
+    padding:0
+  }
+}
+.access-management-upsell-modal #access-management-modal-title{
+  text-align:center;
+  width:100%;
+  padding:0
+}
+.access-management-upsell-modal .close{
+  float:left
+}
+@media (max-width:767px){
+  .access-management-upsell-modal #access-management-upsell-close-button{
+    margin-top:-2px
+  }
+}
+.access-management-upsell-modal .modal-dialog{
+  overflow:auto
+}
+@media (min-width:543px){
+  .access-management-upsell-modal .modal-dialog{
+    min-width:510px
+  }
+}
+.access-management-upsell-modal .modal-dialog .modal-content{
+  border-radius:8px
+}
+.access-management-upsell-modal .modal-dialog .modal-content .modal-body{
+  white-space:pre-wrap;
+  margin:0 12px 24px;
+  padding-bottom:20px
+}
+.access-management-upsell-modal .modal-dialog .modal-content .modal-footer{
+  margin:0 24px 24px
+}
+.parental-consent-modal-body{
+  text-align:center;
+  margin-bottom:12px
+}
+.account-settings-redirect-modal .modal-body{
+  white-space:pre-line
+}
+@media (max-width:543px){
+  .access-management-upsell-inner-modal{
+    padding:0
+  }
+}
+.access-management-upsell-inner-modal .modal-dialog{
+  overflow:auto
+}
+@media (min-width:543px){
+  .access-management-upsell-inner-modal .modal-dialog{
+    min-width:510px
+  }
+}
+.access-management-upsell-inner-modal .modal-dialog .modal-content{
+  border-radius:8px
+}
+.access-management-upsell-inner-modal .modal-dialog .modal-content .modal-header{
+  text-align:center
+}
+.access-management-upsell-inner-modal .modal-dialog .modal-content .modal-header .modal-title{
+  padding:0 30px
+}
+.access-management-upsell-inner-modal .modal-dialog .modal-content .modal-header .close-button{
+  position:absolute;
+  top:12px;
+  left:12px
+}
+.access-management-upsell-inner-modal .modal-dialog .modal-content .modal-body{
+  margin:0 12px
+}
+.access-management-upsell-inner-modal .modal-dialog .modal-content .modal-body .form-horizontal .form-group{
+  width:100%
+}
+.access-management-upsell-inner-modal .modal-dialog .modal-content .modal-body .form-horizontal .form-group .modal-error-message{
+  white-space:normal
+}
+.access-management-upsell-inner-modal .modal-dialog .modal-content .modal-footer .modal-half-width-button{
+  width:calc(100% - 8px);
+  margin:6px 0
+}
+@media (min-width:543px){
+  .access-management-upsell-inner-modal .modal-dialog .modal-content .modal-footer{
+    margin:0 20px 20px;
+    display:flex
+  }
+  .access-management-upsell-inner-modal .modal-dialog .modal-content .modal-footer .modal-half-width-button{
+    width:calc(50% - 8px);
+    margin:0 6px
+  }
+}
+.access-management-upsell-inner-modal .modal-dialog .modal-content .modal-footer .modal-full-width-button{
+  width:calc(100% - 8px);
+  margin:6px 0
+}
+.parent-email-image,.ask-your-parent-lock{
+  background-position:50%;
+  background-repeat:no-repeat;
+  background-size:auto 142px;
+  height:142px;
+  margin:24px 0
+}
+.parent-email-image,.light-theme .parent-email-image{
+  background-image:url("new-parent-email-light-10b-5ttzwf6hv-a31el93g.png")
+}
+.dark-theme .parent-email-image,.color-mode-dark .parent-email-image{
+  background-image:url("new-parent-email-dark-0-z0a6gm_4akw-1iychjq1.png")
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system .parent-email-image{
+    background-image:url("new-parent-email-dark-0-z0a6gm_4akw-1iychjq1.png")
+  }
+}
+.ask-your-parent-lock,.light-theme .ask-your-parent-lock{
+  background-image:url("ask-your-parent-lock-light-189jgygxk0r-6-wovjde18.png")
+}
+.dark-theme .ask-your-parent-lock,.color-mode-dark .ask-your-parent-lock{
+  background-image:url("ask-your-parent-lock-dark-0gapt1sp-0mc5-92rrnn1b.png")
+}
+@media (prefers-color-scheme:dark){
+  .color-mode-system .ask-your-parent-lock{
+    background-image:url("ask-your-parent-lock-dark-0gapt1sp-0mc5-92rrnn1b.png")
+  }
+}
+.user-settings-modal .consent-form{
+  margin-top:12px;
+  display:flex
+}
+.user-settings-modal .consent-form #consent-checkbox{
+  align-items:center;
+  margin-right:12px;
+  display:flex
+}
+.user-settings-modal .consent-form .checkbox-label{
+  align-items:center;
+  display:flex
+}
+.fae-qr-code-header{
+  padding:0 0 4px
+}
+.fae-qr-code-heading{
+  letter-spacing:-.2px;
+  margin:0 0 4px;
+  padding-right:40px;
+  font-size:20px;
+  font-weight:700;
+  line-height:24px
+}
+.light-theme .fae-qr-code-heading,.dark-theme .fae-qr-code-heading,.fae-qr-code-heading{
+  color:var(--color-content-emphasis)
+}
+.fae-qr-code-subheading{
+  margin:0;
+  font-size:14px;
+  font-weight:400;
+  line-height:20px
+}
+.light-theme .fae-qr-code-subheading,.dark-theme .fae-qr-code-subheading,.fae-qr-code-subheading{
+  color:var(--color-content-default)
+}
+.fae-qr-code-card{
+  border-radius:16px;
+  align-items:center;
+  gap:16px;
+  margin-top:20px;
+  padding:16px;
+  display:flex
+}
+.light-theme .fae-qr-code-card,.dark-theme .fae-qr-code-card,.fae-qr-code-card{
+  background-color:var(--color-surface-200)
+}
+.fae-qr-code-image{
+  border-radius:8px;
+  flex-shrink:0;
+  width:134px;
+  height:134px;
+  display:block
+}
+.fae-qr-code-card-text{
+  flex-direction:column;
+  flex:1;
+  gap:16px;
+  min-width:0;
+  padding:4px 0;
+  display:flex
+}
+.fae-qr-code-scan-instruction{
+  margin:0;
+  font-size:14px;
+  font-weight:600;
+  line-height:20px
+}
+.light-theme .fae-qr-code-scan-instruction,.dark-theme .fae-qr-code-scan-instruction,.fae-qr-code-scan-instruction{
+  color:var(--color-content-emphasis)
+}
+.fae-qr-code-divider{
+  flex-shrink:0;
+  width:100%;
+  height:1px;
+  min-height:1px
+}
+.light-theme .fae-qr-code-divider,.dark-theme .fae-qr-code-divider,.fae-qr-code-divider{
+  background-color:var(--color-stroke-default)
+}
+.fae-qr-code-fallback{
+  margin:0;
+  font-size:12px;
+  font-weight:400;
+  line-height:16px
+}
+.light-theme .fae-qr-code-fallback,.dark-theme .fae-qr-code-fallback,.fae-qr-code-fallback{
+  color:var(--color-content-muted)
+}
+.fae-qr-code-fallback-bold{
+  font-weight:600
+}
+.access-management-upsell-modal .modal-dialog:has(.verification-link-page-content-no-padding){
+  max-width:86vw;
+  margin-left:auto;
+  margin-right:auto
+}
+.access-management-upsell-modal .modal-dialog .modal-content .modal-body.verification-link-page-content-no-padding{
+  margin:0;
+  padding:0
+}
+.access-management-upsell-modal .modal-dialog .modal-content .modal-body.verification-link-page-content-no-padding .new-verification-link-page-content-header{
+  margin:20px 16px;
+  padding-right:24px;
+  position:relative
+}
+.access-management-upsell-modal .modal-dialog .modal-content .modal-body.verification-link-page-content-no-padding .new-verification-link-page-content-header .verification-close-button{
+  z-index:10;
+  cursor:pointer;
+  background:0 0;
+  border:none;
+  padding:0;
+  position:absolute;
+  top:0;
+  right:0
+}
+.light-theme .access-management-upsell-modal .modal-dialog .modal-content .modal-body.verification-link-page-content-no-padding .new-verification-link-page-content-header .verification-close-button .icon-close,.dark-theme .access-management-upsell-modal .modal-dialog .modal-content .modal-body.verification-link-page-content-no-padding .new-verification-link-page-content-header .verification-close-button .icon-close,.access-management-upsell-modal .modal-dialog .modal-content .modal-body.verification-link-page-content-no-padding .new-verification-link-page-content-header .verification-close-button .icon-close{
+  color:var(--color-content-emphasis)
+}
+.access-management-upsell-modal .modal-dialog .modal-content .modal-body.verification-link-page-content-no-padding .new-verification-link-page-content-header .new-verification-link-upsell .new-age-verification-title{
+  text-align:left;
+  padding:0 0 5px;
+  font-size:24px
+}
+.light-theme .access-management-upsell-modal .modal-dialog .modal-content .modal-body.verification-link-page-content-no-padding .new-verification-link-page-content-header .new-verification-link-upsell .new-age-verification-title,.dark-theme .access-management-upsell-modal .modal-dialog .modal-content .modal-body.verification-link-page-content-no-padding .new-verification-link-page-content-header .new-verification-link-upsell .new-age-verification-title,.access-management-upsell-modal .modal-dialog .modal-content .modal-body.verification-link-page-content-no-padding .new-verification-link-page-content-header .new-verification-link-upsell .new-age-verification-title{
+  color:var(--color-content-emphasis)
+}
+.access-management-upsell-modal .modal-dialog .modal-content .modal-body.verification-link-page-content-no-padding .new-verification-link-page-content-header .new-verification-link-description{
+  text-align:left;
+  font-size:15px
+}
+.light-theme .access-management-upsell-modal .modal-dialog .modal-content .modal-body.verification-link-page-content-no-padding .new-verification-link-page-content-header .new-verification-link-description,.dark-theme .access-management-upsell-modal .modal-dialog .modal-content .modal-body.verification-link-page-content-no-padding .new-verification-link-page-content-header .new-verification-link-description,.access-management-upsell-modal .modal-dialog .modal-content .modal-body.verification-link-page-content-no-padding .new-verification-link-page-content-header .new-verification-link-description{
+  color:var(--color-content-emphasis)
+}
+.access-management-upsell-modal .modal-dialog .modal-content .modal-body.verification-link-page-content-no-padding .new-verification-link-page-content-body{
+  margin:0 16px 16px
+}
+.access-management-upsell-modal .modal-dialog .modal-content .modal-body.verification-link-page-content-no-padding .new-verification-link-page-content-body .new-verification-link-legal{
+  text-align:left;
+  margin-top:0;
+  font-size:13px
+}
+.light-theme .access-management-upsell-modal .modal-dialog .modal-content .modal-body.verification-link-page-content-no-padding .new-verification-link-page-content-body .new-verification-link-legal,.dark-theme .access-management-upsell-modal .modal-dialog .modal-content .modal-body.verification-link-page-content-no-padding .new-verification-link-page-content-body .new-verification-link-legal,.access-management-upsell-modal .modal-dialog .modal-content .modal-body.verification-link-page-content-no-padding .new-verification-link-page-content-body .new-verification-link-legal{
+  color:var(--color-content-emphasis)
+}
+/*# sourceMappingURL=https://internal-assets.rbxcdn.com/_next/static/chunks/0-oag9y26sc35.css.map*/

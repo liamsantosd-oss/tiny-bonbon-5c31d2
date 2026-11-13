@@ -1,0 +1,14 @@
+.nav-header-offset{
+  height:40px
+}
+@media (max-width:991px){
+  .nav-header-offset{
+    height:82px
+  }
+}
+@media (max-width:600px){
+  .nav-header-offset{
+    height:74px
+  }
+}
+/*# sourceMappingURL=https://internal-assets.rbxcdn.com/_next/static/chunks/0qy10l_35rru1.css.map*/

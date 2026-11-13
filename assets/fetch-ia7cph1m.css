@@ -1,0 +1,260 @@
+/* ~/CSS/Pages/Landing/DownloadTheApp/DownloadTheApp.css */
+.icon-default-stars{
+  background-image:url("stars-4mh1rji1.svg");
+  background-repeat:no-repeat;
+  background-size:auto auto;
+  width:28px;
+  height:28px;
+  display:inline-block;
+  vertical-align:middle;
+}
+.icon-default-stars-16x16,.icon-votes-background,.icon-votes-foreground,.icon-votes-foreground.hover{
+  background-image:url("stars-4mh1rji1.svg");
+  background-repeat:no-repeat;
+  background-size:32px auto;
+  width:16px;
+  height:16px;
+  display:inline-block;
+  vertical-align:middle;
+}
+.icon-votes-background{
+  background-position:0 0;
+}
+.icon-votes-foreground{
+  background-position:0 -16px;
+}
+.icon-votes-foreground.hover{
+  background-position:0 -32px;
+}
+.five-stars{
+  padding-top:5px;
+  display:inline-block;
+}
+.five-stars .stars{
+  background-image:url("five_stars-1cxvn532.svg");
+  background-size:16px auto;
+  height:16px;
+  display:inline-block;
+}
+.five-stars .stars.empty-stars{
+  background-position:0 16px;
+  width:80px;
+  position:relative;
+}
+.five-stars .stars .full-stars{
+  background-position:0 0;
+  position:absolute;
+  left:0;
+}
+.five-stars .five-stars-count{
+  margin:1px 0 0 6px;
+  width:130px;
+  color:#757575;
+}
+@media(max-width:767px) and (orientation:landscape){
+  .five-stars .five-stars-count{
+    display:inline-block;
+    margin-top:0;
+  }
+}
+#BodyWrapper,#Body.body-width,#RepositionBody{
+  width:100%;
+  text-align:center;
+  padding:0;
+  min-height:0;
+}
+#roblox-logo{
+  position:relative;
+  margin-top:12px;
+  width:320px;
+}
+@media(max-width:767px) and (orientation:landscape){
+  #roblox-logo{
+    margin-top:18px;
+    width:180px;
+  }
+}
+@media(max-width:767px) and (orientation:portrait){
+  #roblox-logo{
+    width:180px;
+    margin-top:36px;
+  }
+}
+.main-title{
+  font-size:24px;
+  font-weight:300;
+}
+@media(max-width:767px) and (orientation:landscape){
+  .main-title{
+    margin:12px 0 18px 0;
+  }
+}
+@media(max-width:767px) and (orientation:portrait){
+  .main-title{
+    margin:12px 12px 24px;
+  }
+}
+.link-section{
+  clear:both;
+  display:inline-block;
+  margin-bottom:20px;
+  text-align:center;
+}
+@media(max-width:767px) and (orientation:landscape){
+  .link-section{
+    text-align:left;
+    width:100%;
+  }
+}
+@media(max-width:767px) and (orientation:portrait){
+  .link-section{
+    width:100%;
+    padding-top:0;
+  }
+}
+.link-section .main-link{
+  color:#191919;
+}
+.app-icon{
+  background:url("roblox_app_icon_07262019-1ris2s3n.png") no-repeat;
+  background-size:cover;
+  border:none;
+  border-radius:0;
+  width:90px;
+  height:90px;
+  background-position:50% 50%;
+  display:inline-block;
+}
+@media(max-width:767px) and (orientation:landscape){
+  .app-icon{
+    height:48px;
+    width:48px;
+    float:left;
+    border-radius:12px;
+  }
+}
+@media(max-width:767px) and (orientation:portrait){
+  .app-icon{
+    height:72px;
+    width:72px;
+    border-radius:16px;
+  }
+}
+.app-info{
+  padding-top:12px;
+}
+@media(max-width:767px) and (orientation:landscape){
+  .app-info{
+    padding:3px 0 0 60px;
+  }
+}
+.app-info .heading{
+  display:block;
+}
+.app-info .heading:not(.stars){
+  padding-top:5px;
+}
+@media(max-width:767px) and (orientation:landscape){
+  .app-info .heading:not(.stars){
+    padding-top:12px;
+  }
+}
+.continue-section{
+  padding:52px 0;
+}
+@media(max-width:767px) and (orientation:landscape){
+  .continue-section{
+    padding:18px 0;
+  }
+}
+@media(max-width:767px) and (orientation:portrait){
+  .continue-section{
+    padding:12px 0 60px 0;
+  }
+}
+.button-separator{
+  height:28px;
+}
+@media(max-width:767px) and (orientation:landscape){
+  .button-separator{
+    height:32px;
+  }
+}
+.app-store-logo{
+  width:160px;
+  border-radius:8px;
+}
+@media(max-width:767px){
+  .app-store-logo{
+    width:120px;
+    border-radius:6px;
+  }
+}
+.app-store-link{
+  padding:0 3px;
+}
+@media(max-width:767px) and (orientation:landscape){
+  .app-store-link{
+    display:block;
+  }
+}
+@media(max-width:767px) and (orientation:portrait){
+  .app-store-link{
+    padding:0;
+  }
+}
+@media(max-width:767px) and (orientation:portrait){
+  .continue-in-app{
+    margin:10px auto;
+  }
+}
+a.text-link-secondary{
+  color:#B8B8B8;
+}
+.images{
+  width:100%;
+  background-repeat:no-repeat;
+  background-position:0 0;
+  background-size:100% auto;
+  background-image:url("img_games-tile-12062016-11k6eun1.jpg");
+  height:360px;
+  text-align:center;
+}
+@media(max-width:767px) and (orientation:landscape){
+  .images{
+    height:90px;
+    background-position:0 -150px;
+  }
+}
+@media(max-width:767px) and (orientation:portrait){
+  .images{
+    height:120px;
+    background-size:auto 360px;
+    background-position:0 63%;
+  }
+}
+.left-column{
+  float:none;
+  margin:0 auto;
+}
+@media(max-width:767px) and (orientation:landscape){
+  .left-column{
+    width:55%;
+    min-width:270px;
+    padding-left:24px;
+    text-align:left;
+    float:left;
+  }
+}
+.right-column{
+  float:none;
+  margin:0 auto;
+  text-align:center;
+}
+@media(max-width:767px) and (orientation:landscape){
+  .right-column{
+    width:40%;
+    min-width:207px;
+    float:left;
+  }
+}

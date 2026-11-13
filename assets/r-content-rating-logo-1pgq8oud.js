@@ -1,0 +1,1 @@
+(window.__pdR = window.__pdR || {})["https://apis.roblox.com/guac-v2/v1/bundles/content-rating-logo"] = ["application/json", "eyJkaXNwbGF5QnJhemlsUmF0aW5nTG9nbyI6ZmFsc2UsImRpc3BsYXlJdGFseVJhdGluZ0xvZ28iOmZhbHNlfQ=="];

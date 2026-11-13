@@ -1,0 +1,15 @@
+:root{
+  --image-app-bumper-background-light:url("img_pattern_light-0joor50b7v9t_-14hd32c9.png");
+  --image-app-bumper-background-dark:url("img_pattern_dark-0sxuvwfj2pjj-1baxt2t1.png");
+  --image-app-bumper-background:var(--lightningcss-light,var(--image-app-bumper-background-light))var(--lightningcss-dark,var(--image-app-bumper-background-dark))
+}
+.color-mode-light,.color-mode-dark,.color-mode-system{
+  --image-app-bumper-background:var(--lightningcss-light,var(--image-app-bumper-background-light))var(--lightningcss-dark,var(--image-app-bumper-background-dark))
+}
+.app-bumper{
+  background-image:var(--image-app-bumper-background);
+  z-index:1030;
+  background-size:240px;
+  bottom:0
+}
+/*# sourceMappingURL=https://internal-assets.rbxcdn.com/_next/static/chunks/0xb3njy56l3q-.css.map*/

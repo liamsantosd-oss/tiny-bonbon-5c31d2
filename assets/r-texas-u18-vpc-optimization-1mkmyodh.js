@@ -1,0 +1,1 @@
+(window.__pdR = window.__pdR || {})["https://apis.roblox.com/guac-v2/v1/bundles/texas-u18-vpc-optimization"] = ["application/json", "eyJ0ZXhhc1UxOFZQQ09wdGltaXphdGlvbkVuYWJsZWQiOnRydWUsInRleGFzVTE4VlBDT3B0aW1pemF0aW9uRW5hYmxlZEZvckV2ZXJ5b25lIjp0cnVlfQ=="];

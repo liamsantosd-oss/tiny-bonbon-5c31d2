@@ -1,0 +1,1 @@
+(window.__pdR = window.__pdR || {})["https://apis.roblox.com/account-security-service/v1/prompt-assignments?shouldReturnMetadata=true"] = ["application/json", "W3siaXNHZW5lcmljIjpmYWxzZSwicHJvbXB0VHlwZSI6IlBST01QVF9UWVBFX1BBU1NLRVlfVVBTRUxMIiwibWV0YWRhdGEiOm51bGx9XQ=="];

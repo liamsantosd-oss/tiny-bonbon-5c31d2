@@ -1,0 +1,110 @@
+:root{
+  --image-challenge-shield-light:url("protection-shield-light-svg-0ek0qk-ue6f3-116ts5dc.svg");
+  --image-challenge-shield-dark:url("protection-shield-dark-svg-07db8-qan3zta-10trfaau.svg");
+  --image-challenge-shield:var(--lightningcss-light,var(--image-challenge-shield-light))var(--lightningcss-dark,var(--image-challenge-shield-dark));
+  --color-challenge-button-link-light:var(--color-extended-gray-1200);
+  --color-challenge-button-link-dark:var(--color-extended-gray-100);
+  --color-challenge-button-link:var(--lightningcss-light,var(--color-challenge-button-link-light))var(--lightningcss-dark,var(--color-challenge-button-link-dark))
+}
+.color-mode-light,.color-mode-dark,.color-mode-system{
+  --image-challenge-shield:var(--lightningcss-light,var(--image-challenge-shield-light))var(--lightningcss-dark,var(--image-challenge-shield-dark));
+  --color-challenge-button-link:var(--lightningcss-light,var(--color-challenge-button-link-light))var(--lightningcss-dark,var(--color-challenge-button-link-dark))
+}
+.challenge-dialog p{
+  text-align:center;
+  max-width:543px;
+  margin:auto
+}
+.challenge-dialog p.form-control-label{
+  text-align:left
+}
+.challenge-dialog .modal-margin-bottom-sm{
+  margin-bottom:6px
+}
+.challenge-dialog .modal-margin-bottom{
+  margin-bottom:12px
+}
+.challenge-dialog .modal-margin-bottom-large{
+  margin-bottom:18px
+}
+.challenge-dialog .modal-margin-bottom-xlarge{
+  margin-bottom:24px
+}
+.challenge-dialog .modal-text-danger{
+  color:var(--color-extended-red-700)
+}
+.challenge-dialog .modal-lock-icon{
+  background-image:url("lock-svg-0bycjs_a0q3ad-z8hbun1f.svg");
+  background-position:50%;
+  background-repeat:no-repeat;
+  background-size:auto 156px;
+  height:156px;
+  margin-top:24px;
+  margin-bottom:24px
+}
+.challenge-dialog .modal-protection-shield-icon{
+  background-image:var(--image-challenge-shield);
+  background-position:50%;
+  background-repeat:no-repeat;
+  background-size:auto 100px;
+  height:156px;
+  margin-top:24px;
+  margin-bottom:24px
+}
+.challenge-dialog .modal-body-button-link{
+  color:var(--color-challenge-button-link);
+  background:0 0;
+  border:none;
+  margin-left:auto;
+  margin-right:auto;
+  padding:0;
+  font-weight:700;
+  display:block
+}
+.challenge-dialog .modal-action-button{
+  width:100%;
+  display:block
+}
+.challenge-dialog .challenge-action-button{
+  width:100%;
+  display:flex
+}
+@media (min-width:543px){
+  .challenge-dialog.foundation-web-dialog-content[data-size]{
+    width:519px;
+    max-width:519px
+  }
+}
+@media (max-width:542px){
+  .challenge-dialog.foundation-web-dialog-content[data-size]{
+    width:calc(100% - 24px);
+    max-width:calc(100% - 24px)
+  }
+}
+.challenge-dialog .challenge-dialog-title{
+  font-weight:var(--font-weight-400);
+  line-height:24px
+}
+@media (max-width:543px){
+  .challenge-dialog .challenge-dialog-title{
+    font-size:3.5vw
+  }
+}
+.challenge-dialog>.padding-x-xlarge:not([data-testid=challenge-dialog-header]){
+  padding-inline-start:18px;
+  padding-inline-end:18px
+}
+.challenge-dialog .challenge-dialog-divider{
+  margin-bottom:18px
+}
+.challenge-dialog .challenge-dialog-footer{
+  margin-top:18px
+}
+@font-face{
+  font-family:text-security-disc;
+  src:url("text-security-disc-0gffr21n25nxu-8pktze6h.woff2")format("woff2")
+}
+.challenge-input-concealed input{
+  font-family:text-security-disc!important
+}
+/*# sourceMappingURL=https://internal-assets.rbxcdn.com/_next/static/chunks/10ck717-0s67r.css.map*/
